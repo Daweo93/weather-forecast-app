@@ -1,6 +1,7 @@
 import '../node_modules/bootstrap/dist/css/bootstrap-reboot.css';
 import '../node_modules/bootstrap/dist/css/bootstrap-grid.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import './style.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
