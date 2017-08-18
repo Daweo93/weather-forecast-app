@@ -38,8 +38,6 @@ class WeatherList extends Component {
 
   renderTableItems () {
     return this.props.weather.map(cityData => {
-      console.log(cityData);     
-
       const temp = this.getDataFromObject(cityData, 'temp');
       const pressure = this.getDataFromObject(cityData, 'pressure');
       const humidity = this.getDataFromObject(cityData, 'humidity');

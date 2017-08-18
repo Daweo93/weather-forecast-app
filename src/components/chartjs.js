@@ -2,7 +2,6 @@ import React from 'react';
 import { Line } from 'react-chartjs-2';
 
 export default props => {
-  console.log(props.data.values);
   const data = {
     labels: props.data.dates,
     datasets: [

@@ -6,6 +6,7 @@
     "axios": "^0.16.2",
     "bootstrap": "4.0.0-beta",
     "chart.js": "^2.6.0",
+    "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-chartjs-2": "^2.5.7",
     "react-dom": "^15.6.1",
@@ -15,12 +16,15 @@
     "redux-promise": "^0.5.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "homepage": "https://daweo93.github.io/weather-forecast-app",
   "main": "index.js",
   "devDependencies": {},
   "keywords": [
