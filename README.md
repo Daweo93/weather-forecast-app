@@ -7,7 +7,7 @@ Used technlogies:
  - Axios
  - ChartJs
 
-Check live demo [here](http://daweo93.github.io/weather-app).
+Check live demo [here](https://daweo93.github.io/weather-forecast-app/).
 
 In this configuration I've added Redux and HMR.
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
